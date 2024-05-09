@@ -1,0 +1,136 @@
+body{
+    /* padding: 60px; */
+}
+#container1{
+    background-color:white;
+    padding: 80px;
+}
+#navbar ul{
+    display: flex;
+    justify-content: space-around;
+ 
+   
+    }
+#navbar li {
+ display: inline-block;
+ margin-top: 5px;             }
+#navbar{
+    gap: 300px;
+    font-size: small;
+}
+#nav-bar a{
+    text-decoration: none;
+    color:black}
+#login{
+        display: flex;
+        gap: 40px;
+        margin-left: 120px;
+        margin-top: 18px;
+}
+.enter{
+        width: 130px;
+        height: 40px;
+        border-radius: 50px;
+        color:white;
+        background-color: rgb(114,183,177);
+}
+.words p{
+    font-size: small;
+}
+.words{
+    font-size: large;
+}
+.image{
+border-radius: 30%;
+margin-left: 30%;
+
+    }
+.favorite input{
+padding: 10px;
+width: 500px;
+height: 40px;
+font-size: 20px;
+border: none;
+border-radius: 30px;
+}
+.favorite button{
+        padding: 10px;
+        margin: 10px;
+        position: absolute;
+        border: none;
+        top: 0;
+        right: 0;
+        background-color: rgb(114,183,177);
+        border-radius: 200px;
+        width: 100px;
+        height: 40px;
+}
+.enter2{
+        width: 140px;
+        height: 60px;
+        border-radius: 70px;
+        color:white;
+        background-color: rgb(114,183,177);
+}
+.searchbutton{
+        /* display: flex; */
+        margin-left: 60px;
+        
+}
+.image{
+        border-radius: 50%;
+}
+.favorite input{
+    padding: 5px;
+    width: 300px;
+    height: 40px;
+    font-size: 20px;
+    border:solid rgb(201, 197, 197);
+    border-radius: 30px;
+    margin-left: 10px; 
+       }
+.favorite button{ 
+         padding: 10px;
+        margin: 10px;
+        position: absolute; 
+        border: none;
+        top: 0;
+        right: 0;
+        background-color: rgb(114,183,177);
+        border-radius: 200px;
+        width: 100px;
+        height: 40px;
+       }
+    
+.reading{
+    display: flex;
+    /* gap: 20px; */
+}
+#contacts{
+        display: flex;
+        gap: 17px;
+        /* border: solid 2px; */
+}
+#contacts p{
+    /* border: solid 2px; */
+}
+#socialmedia{
+        display: flex;
+justify-content: space-evenly;
+    }
+#lastpart{
+        background-color: rgb(227,240,239);
+        height: 200px;
+        padding: 20px;
+}
+@media screen and (min-width:280px) and (max-width:500px){
+  body{
+    width: 100%;
+  }
+#socialmedia{
+    flex-wrap: wrap;
+    }
+#lastpart{
+    flex-wrap: wrap;
+    }
+}
